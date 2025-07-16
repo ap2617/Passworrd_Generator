@@ -1,0 +1,89 @@
+*{
+  margin: 0px;
+  padding: 0px;
+
+}
+.main{
+  background: rgb(38, 11, 82);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+   justify-content: center;
+  align-items: center;
+}
+.box{
+  width: 340px;
+  height: 360px;
+  background: rgb(83, 38, 168);
+}
+.box h1{
+  text-align: center;
+  font-size: 28px;
+  padding: 10px;
+  color: white;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  margin-top:4px ; 
+}
+.info input{
+  flex-basis: 70%;
+  background: rgb(38, 11, 82);
+  padding: 8px;
+  align-items: center;
+   color: white;
+ 
+}
+.info button{
+  flex-basis: 15%;
+  background: rgb(83, 38, 168);
+  align-items: center;
+
+}
+.option{
+  display: flex;
+  gap: 100px;
+  padding: 14px;
+}
+.option label{
+  flex-basis: 40%;
+  text-align: center;
+  color: white;
+  padding-left: 4px;
+  align-items: center;
+}
+.option input{
+  padding: 3px;
+  width: 20%;
+  
+}
+.detail{
+  display: flex;
+  padding: 8px;
+}
+.detail label{
+  flex-basis:70%;
+  padding-left: 12px;
+  color: white;
+}
+.detail input{
+  
+  flex-basis: 30%;
+}
+.btn{
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+}
+.btn button{
+  width: 90%;
+  height: 35px;
+  background: rgb(59, 15, 130);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-size: 16px;
+  color: white;
+  cursor: pointer;
+}
